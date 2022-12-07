@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/anhBia"
+        android:layout_centerHorizontal="true"
+        android:layout_width="140dp"
+        android:layout_height="181dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+    <TextView
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="181dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:text="Loading..."
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/moTaNgan"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="221dp"
+        android:layout_width="match_parent"
+        android:text="Loading..."
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/tenTacGia"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="271dp"
+        android:layout_width="match_parent"
+        android:text="Loading..."
+        android:layout_height="25dp"/>
+    <TextView
+        android:id="@+id/namXuatBan"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_marginTop="295dp"
+        android:layout_width="match_parent"
+        android:text="Loading..."
+        android:layout_height="25dp"/>
+
+    <Button
+        android:id="@+id/readTruyen"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="321dp"
+        android:layout_height="45dp"
+        android:text="Đọc Truyện" />
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="280dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="361dp"
+        android:layout_height="45dp"
+        android:text="Gửi" />
+
+    <EditText
+        android:id="@+id/commemtTextEdit"
+        android:layout_width="match_parent"
+        android:layout_marginTop="365dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="150dp"/>
+    <ListView
+        android:id="@+id/commentLv"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
